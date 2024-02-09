@@ -31,7 +31,7 @@ def fetch_unsplash_images(access_key, page=1, per_page=10):
     return images
 
 if __name__ == "__main__":
-    access_key = "47cCAy88vq_Bjxv37pxN1doto3ux4SL8PmuCwdL3Eqo"  # Replace YOUR_ACCESS_KEY with your actual Unsplash Access Key
+    access_key = "YOUR_ACCESS_KEY"  # Replace YOUR_ACCESS_KEY with your actual Unsplash Access Key
     images = fetch_unsplash_images(access_key)
     with open('unsplash_images.json', 'w', encoding='utf-8') as f:
         json.dump(images, f, ensure_ascii=False, indent=4)
