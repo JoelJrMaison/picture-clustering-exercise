@@ -1,5 +1,7 @@
 This here is a photography product clustering exercise
 
+Link to the video: https://drive.google.com/file/d/1YhbeI9E3GDTYhCNjRgx7xTl8rXc1_khU/view?usp=sharing 
+
 before anything make sure you have python installed
 
 then in the command line type pip install streamlit scikit-learn nltk requests beautifulsoup4
